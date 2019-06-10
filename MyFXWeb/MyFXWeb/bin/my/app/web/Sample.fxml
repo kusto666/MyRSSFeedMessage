@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane prefHeight="467.0" prefWidth="733.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="my.app.web.SampleController">
+   <top>
+      <TextField fx:id="fxTextInput" promptText="Начинайте вводить..." BorderPane.alignment="CENTER" />
+   </top>
+   <left>
+      <Button fx:id="fxBtnSearch" mnemonicParsing="false" onAction="#btOnSearch" text="Button" BorderPane.alignment="CENTER" />
+   </left>
+</BorderPane>
